@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Linters and type checkers
+.mypy_cache/
+.ruff_cache/
+.pytest_cache/
+
+# Build results and local test reports
+out/
+*.docx
+!examples/**/*.docx
+~$*
+
+# OS and editors
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
